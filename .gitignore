@@ -1,0 +1,10 @@
+# secrets and local state: never commit these
+.env
+.env.txt
+astrohab.db
+astrohab.db-wal
+astrohab.db-shm
+data/cert/
+
+__pycache__/
+*.pyc

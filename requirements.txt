@@ -1,0 +1,10 @@
+flask>=3.0
+reportlab>=4.0
+google-genai
+pyserial
+pyttsx3
+gTTS
+# playback of Arabic spoken alerts. playsound 1.2.2 fails to install on some Python 3.10+ setups;
+# if it does, remove this line and run: pip install playsound3   (the code uses playsound3 when present)
+playsound==1.2.2
+cryptography>=42
